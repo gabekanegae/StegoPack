@@ -2,11 +2,6 @@
 
 Final project for **[SCC0251 - Image Processing](https://uspdigital.usp.br/jupiterweb/jupDisciplina?sgldis=SCC0251)** @ ICMC/USP.
 
-* 10262648 - Gabriel Kanegae Souza
-  * Module implementation and optimization
-* 10262652 - [João Vitor dos Santos Tristão](http://github.com/jtristao/)
-  * Notebooks, analysis and writeup
-
 `StegoPack` is a Python module and full application that is able to encode any file into an image via **LSB steganography**, as well as detect and decode a file from an image. For that, the lowest level of encoding is be selected (the one that degrades the original image the least), based on file sizes.
 
 This implementation focuses on modularity/flexibility (**Module Usage** below) and speed (multithreading implementation). The Python Notebooks also provide a more visual exploration of the method and its results.
